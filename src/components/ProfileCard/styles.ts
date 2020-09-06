@@ -50,7 +50,6 @@ export const Link = styled.li`
       padding: ${theme.spacings.xxsmall};
       color: ${theme.colors.secondary};
     }
-
     svg {
       width: 2rem;
       height: 2rem;

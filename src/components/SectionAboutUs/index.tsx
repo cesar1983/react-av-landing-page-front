@@ -4,18 +4,16 @@ import Heading from 'components/Heading'
 import Container from 'components/Container'
 import ProfileCard from 'components/ProfileCard'
 
-import * as S from './styles'
 import { SectionAboutUsProps } from 'types/api'
 
-type Props = {
-  sectionAboutUs: SectionAboutUsProps
-}
-const SectionAboutUs = ({ sectionAboutUs }: Props) => (
+import * as S from './styles'
+
+const SectionAboutUs = ({ title, authors }: SectionAboutUsProps) => (
   <Container>
-    <Heading reverseColor>{sectionAboutUs.title}</Heading>
+    <Heading reverseColor>{title}</Heading>
 
     <S.Content>
-      {sectionAboutUs.authors.map((author) => (
+      {authors.map((author) => (
         <ProfileCard
           key={author.name}
           name={author.name}
