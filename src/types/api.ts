@@ -42,7 +42,6 @@ export type SectionTechProps = {
   techIcons: TechIcon[]
 }
 
-
 export type SectionConceptsProps = {
   title: string
   concepts: Array<{
@@ -67,14 +66,13 @@ export type SectionAgendaProps = {
 }
 
 export type PricingBoxProps = {
-    benefits: string
-    totalPrice: number
-    numberInstallments: number
-    priceInstallment: number
-    button:  {
-      label: string
-      url: string
-    }
+  benefits: string
+  totalPrice: number
+  numberInstallments: number
+  priceInstallment: number
+  button: {
+    label: string
+    url: string
   }
 }
 
@@ -100,7 +98,7 @@ export type SectionAboutUsProps = {
 export type Review = {
   name: string
   text: string
-  photo : {
+  photo: {
     alternativeText: string
     url: string
   }
@@ -109,17 +107,17 @@ export type Review = {
 export type SectionReviewsProps = {
   title: string
   reviews: Review[]
-} 
+}
 
-export type Question =  {
+export type Question = {
   question: string
   answer: string
 }
 
 export type SectionFaqProps = {
   title: string
-  questions : Question[]
-  extraQuestion : Question
+  questions: Question[]
+  extraQuestion: Question
 }
 
 export type LandingPageProps = {

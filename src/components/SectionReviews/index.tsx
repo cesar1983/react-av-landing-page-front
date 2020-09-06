@@ -5,7 +5,6 @@ import Container from 'components/Container'
 import Heading from 'components/Heading'
 import ReviewCard from 'components/ReviewCard'
 
-import reviews from './content'
 import * as S from './styles'
 import { SectionReviewsProps } from 'types/api'
 

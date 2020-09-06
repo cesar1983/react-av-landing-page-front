@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactHtmlParser from 'react-html-parser'
 
 import Heading from 'components/Heading'
 import Container from 'components/Container'
