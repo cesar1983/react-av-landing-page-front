@@ -66,8 +66,8 @@ const GET_LANDING_PAGE = /* GraphQL */ `
         }
         description
         photo {
-          alternativeText
           url
+          alternativeText
         }
       }
     }
